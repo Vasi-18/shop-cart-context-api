@@ -8,8 +8,8 @@ const Header = () => {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container px-4 px-lg-5">
-          <a className="navbar-brand text-danger" href="#">
-            V-Mart
+          <a className="navbar-brand text-danger" href="#!">
+            Shop-Mart
           </a>
           <button
             className="navbar-toggler"
@@ -41,6 +41,7 @@ const Header = () => {
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
+                  href="#!"
                 >
                   Shop
                 </a>
